@@ -1,3 +1,4 @@
+import './scss/index.scss';
 
 var debug = debug || true;
 var getBreakpoint = function () {
