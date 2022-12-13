@@ -1,6 +1,6 @@
 {
   "name": "@glitchr/breakpoints",
-  "version": "1.0.13",
+  "version": "1.0.15",
   "description": "Breakpoint extension",
   "main": "src/index.js",
   "repository": {
