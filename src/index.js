@@ -6,9 +6,7 @@ var getBreakpoint = function () {
 }
 
 var breakpoint = getBreakpoint();
-if(debug) {
-	console.log("Breakpoint: " + breakpoint);
-}
+if(debug) console.log("Breakpoint: " + breakpoint);
 
 window.addEventListener('resize', function() {
 	breakpoint = getBreakpoint();
