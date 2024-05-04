@@ -1,4 +1,5 @@
-var debug = debug || true;
+var debug = (process.env.NODE_ENV == "development");
+
 var getBreakpoint = function () {
 	return window.getComputedStyle(document.body, ":before").content.replace(/\"/g, '');
 }
