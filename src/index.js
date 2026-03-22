@@ -1,7 +1,7 @@
 const debug = (process.env.NODE_ENV === "development");
 
 const getBreakpoint = function () {
-	return window.getComputedStyle(document.body, ":before").content.replace(/\"/g, '');
+	return window.getComputedStyle(document.body, ":before").content.replace(/"/g, '');
 }
 
 const breakpoint = window.breakpoint = getBreakpoint();
@@ -10,6 +10,6 @@ if(debug) console.log("Breakpoint: " + breakpoint);
 window.addEventListener('resize', function() {
 	window.breakpoint = getBreakpoint();
 	if(debug) console.log("Breakpoint: " + window.breakpoint);
-}, false);
+});
 
 export default breakpoint;
