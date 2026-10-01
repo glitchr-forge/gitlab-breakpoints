@@ -4,8 +4,8 @@
   "description": "Breakpoint extension",
   "main": "src/index.js",
   "repository": {
-    "url": "ssh://git@gitlab.glitchr.dev:public-repository/javascript/breakpoints.git",
-    "type": "git"
+    "type": "git",
+    "url": "git+https://github.com/glitchr-studio/breakpoints.git"
   },
   "dependencies": {},
   "author": "Marco Meyer <marco.meyer@glitchr.io>",
